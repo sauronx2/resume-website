@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium;
+  }
+
+  .nav-link.active {
+    @apply text-blue-600 border-b-2 border-blue-600;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-8;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-blue-600 px-6 py-3 rounded-lg font-medium border border-blue-600 hover:bg-blue-50 transition-colors duration-200;
+  }
+
+  .skill-tag {
+    @apply inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg text-sm font-medium text-gray-700 hover:bg-blue-100 hover:text-blue-700 transition-colors duration-200 cursor-pointer;
+  }
+
+  .skill-tag img {
+    @apply w-5 h-5 object-contain;
+  }
+
+  .timeline-dot {
+    @apply w-4 h-4 bg-blue-600 rounded-full absolute -left-2 top-1;
+  }
+
+  .timeline-line {
+    @apply absolute left-0 top-0 bottom-0 w-0.5 bg-blue-200;
+  }
+
+  .stat-card {
+    @apply text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100;
+  }
+
+  .stat-number {
+    @apply text-4xl font-bold text-blue-600;
+  }
+
+  .stat-label {
+    @apply text-gray-600 mt-2;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800;
+  }
+}

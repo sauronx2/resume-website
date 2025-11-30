@@ -53,6 +53,15 @@
     @apply w-4 h-4 bg-blue-600 rounded-full absolute -left-2 top-1;
   }
 
+  .timeline-dot-enhanced {
+    @apply w-4 h-4 bg-blue-600 rounded-full relative;
+  }
+
+  .timeline-dot-enhanced::after {
+    content: '';
+    @apply absolute w-8 h-8 bg-blue-100 rounded-full -top-2 -left-2 -z-10;
+  }
+
   .timeline-line {
     @apply absolute left-0 top-0 bottom-0 w-0.5 bg-blue-200;
   }

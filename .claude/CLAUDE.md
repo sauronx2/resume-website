@@ -55,6 +55,15 @@ npm run build  # Build for production
 - Don't add comments for obvious code
 - Don't create abstractions for one-time use
 
+## Git Workflow (CRITICAL)
+**THIS IS A PRODUCTION APPLICATION deployed at serhadov.dev**
+
+- **NEVER push directly to master branch**
+- Always create feature branches for any changes
+- Use descriptive branch names: `feature/`, `fix/`, `refactor/`
+- Create PRs for review before merging to master
+- Test changes locally before creating PR
+
 ## OpenSpec Workflow
 Before major changes:
 1. Check `openspec/specs/` for existing specs

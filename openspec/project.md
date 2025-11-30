@@ -55,19 +55,56 @@ Personal portfolio website showcasing Oleksandr Serhadov's experience as a Senio
 
 ## Recent Changes (2025-11-30)
 
-### Links Updated
+### Session 6 - Contact Section Redesign & Mobile Audit
+
+#### Contact Section ("Get in Touch") Redesigned
+- Fixed LinkedIn duplicate text issue (was showing "LinkedIn" twice)
+- Added GitHub link as third contact option
+- Enlarged icons (w-12 h-12 → w-14 h-14) with hover effects
+- Increased spacing between contact items (space-y-4 → space-y-6)
+- Added descriptive subtexts ("Connect with me", "View my projects")
+- Languages section enhanced with better padding
+- GitHub added to footer
+
+#### Mobile Responsiveness Audit (Score: 92/100)
+- Removed `whitespace-nowrap` from H1 to fix overflow on narrow devices (< 375px)
+- Verified all breakpoints (sm, md, lg, xl) work correctly
+- Mobile navigation (hamburger menu) confirmed working
+- All grids stack properly on mobile
+- Form inputs are touch-friendly (48px+ targets)
+- No critical overflow issues found
+
+#### Cross-Browser Compatibility Verified
+- Chrome (Windows/Mac/Android) ✓
+- Firefox (Windows/Mac) ✓
+- Safari (Mac/iOS) ✓
+- Edge (Windows) ✓
+- Samsung Internet (Android) ✓
+
+Features with graceful fallbacks:
+- `backdrop-blur-sm` - falls back to opacity
+- `scroll-behavior: smooth` - falls back to instant scroll
+
+### Previous Changes (Session 5)
+- Badge color: emerald-500 → teal-500 (harmonizes with blue design)
+- Bullet alignment fixes (items-center)
+- Removed Location and Phone from contact section
+- Footer year updated to 2025
+
+### Earlier Sessions
+#### Links Updated
 - XCUITest -> GitHub appium-xcuitest-driver
 - Flutter Driver -> GitHub appium-flutter-integration-driver
 
-### Icons Updated
+#### Icons Updated
 - BrowserStack: Google Favicon API (reliable icon source)
 - LambdaTest: Google Favicon API (reliable icon source)
 
-### Stats Updated
+#### Stats Updated
 - Projects Delivered: 50+ → 15+
 - Engineers Mentored: 15+ → 10+
 
-### Soft Skills Redesigned
+#### Soft Skills Redesigned
 New skills with responsive grid:
 1. Strategic Problem-Solving
 2. Technical Leadership & Mentoring
@@ -75,7 +112,7 @@ New skills with responsive grid:
 4. Cross-Team Collaboration
 5. Decision-Making Under Pressure
 
-### Experience Updated
+#### Experience Updated
 - Changed from 7+ to 6+ years of experience
 
 ## Deployment

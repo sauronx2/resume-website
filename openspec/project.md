@@ -55,11 +55,29 @@ Personal portfolio website showcasing Oleksandr Serhadov's experience as a Senio
 
 ## Recent Changes (2025-11-30)
 
+### Session 7 - Layout Fixes & Icon Updates
+
+#### Hero Section Layout Fixed
+- H1 "Hi, I'm Oleksandr Serhadov" restored to single line on desktop (`md:whitespace-nowrap`)
+- Stats container moved lower (`md:mt-8` → `md:mt-16`) for better visual balance
+- Mobile responsiveness preserved (text wraps naturally on small screens)
+
+#### Contact Section Corrections
+- Removed GitHub link (was added without request)
+- Removed GitHub from footer
+- Section now has Email + LinkedIn only
+
+#### Icon Updates (Skills Section)
+- Selenide: Using official favicon from selenide.org
+- ReportPortal: Using official favicon from reportportal.io
+- Selenium: Green version via SimpleIcons (`#43B02A`)
+- Selenium Grid: Purple version via SimpleIcons (`#6B5B95`)
+
 ### Session 6 - Contact Section Redesign & Mobile Audit
 
 #### Contact Section ("Get in Touch") Redesigned
 - Fixed LinkedIn duplicate text issue (was showing "LinkedIn" twice)
-- Added GitHub link as third contact option
+- ~~Added GitHub link as third contact option~~ (reverted in Session 7)
 - Enlarged icons (w-12 h-12 → w-14 h-14) with hover effects
 - Increased spacing between contact items (space-y-4 → space-y-6)
 - Added descriptive subtexts ("Connect with me", "View my projects")

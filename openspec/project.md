@@ -22,7 +22,7 @@ Personal portfolio website showcasing Oleksandr Serhadov's experience as a Senio
 
 ### Implemented
 - [x] Responsive navigation with mobile menu
-- [x] Hero section with key stats (6+ years, 4 companies, 50+ projects, 15+ mentored)
+- [x] Hero section with key stats (6+ years, 4 companies, 15+ projects, 10+ mentored)
 - [x] Professional experience timeline
 - [x] Skills grid with categorized tools and icons
 - [x] Soft skills section (responsive grid layout)
@@ -60,8 +60,12 @@ Personal portfolio website showcasing Oleksandr Serhadov's experience as a Senio
 - Flutter Driver -> GitHub appium-flutter-integration-driver
 
 ### Icons Updated
-- BrowserStack: Simple Icons CDN (icon only)
-- LambdaTest: Simple Icons CDN (icon only)
+- BrowserStack: Google Favicon API (reliable icon source)
+- LambdaTest: Google Favicon API (reliable icon source)
+
+### Stats Updated
+- Projects Delivered: 50+ → 15+
+- Engineers Mentored: 15+ → 10+
 
 ### Soft Skills Redesigned
 New skills with responsive grid:

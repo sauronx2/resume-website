@@ -10,7 +10,9 @@
     "css:watch": "tailwindcss -i ./src/styles/main.css -o ./src/styles/output.css --watch",
     "build": "npm run css:build",
     "deploy": "./scripts/deploy.sh",
-    "start": "npm run build && npm run serve"
+    "server:start": "npm run build && npm run serve",
+    "server:dev": "npm run dev",
+    "server:stop": "lsof -ti:3000 | xargs kill -9 2>/dev/null || echo 'No server running on port 3000'"
   },
   "keywords": [
     "resume",

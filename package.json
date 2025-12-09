@@ -9,6 +9,7 @@
     "css:build": "tailwindcss -i ./src/styles/main.css -o ./src/styles/output.css --minify",
     "css:watch": "tailwindcss -i ./src/styles/main.css -o ./src/styles/output.css --watch",
     "build": "npm run css:build",
+    "deploy": "./scripts/deploy.sh",
     "start": "npm run build && npm run serve"
   },
   "keywords": [

@@ -27,7 +27,7 @@ Personal resume/portfolio website for Oleksandr Serhadov, Senior QA Automation E
 
 ## Content Source
 **IMPORTANT:** All resume content MUST come from:
-`/Users/sauron/Downloads/Oleksandr-Serhadov-CV-new.pdf`
+`public/assets/Oleksandr-Serhadov-CV.pdf` (the CV shipped with the site)
 
 This is the single source of truth for:
 - Personal information
